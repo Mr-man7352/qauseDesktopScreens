@@ -1,0 +1,91 @@
+.head-img {
+  height: 200px;
+  width: 100%;
+}
+.bg-border-color {
+  background-color: #fcfcfc;
+  border: 1px solid#f4f4f4;
+  box-shadow: 0px 1px 2px 1px rgb(244 244 244 / 20%);
+  border-radius: 3px;
+}
+.font-size {
+  font-size: 1rem;
+}
+.max-width-right-heading {
+  max-width: 65%;
+}
+// .tab-heading{
+//     margin-bottom: 40px;
+// }
+
+:host ::ng-deep .mat-tab-label-active {
+  background-color: #f7a213;
+  border-radius: 18px;
+  color: white;
+}
+:host ::ng-deep .mat-tab-header {
+  border-bottom: none;
+}
+:host ::ng-deep .mat-tab-label {
+  min-width: 130px;
+  height: 38px;
+  margin-right: 2rem;
+}
+
+.limitTextHeight {
+  height: 60px;
+  overflow: hidden;
+}
+.font-size-raised {
+  font-size: 1.5rem;
+}
+.width-side-left {
+  width: 246px;
+}
+.width-side-right {
+  width: 700px;
+}
+.button-style-yellow {
+  background-color: #f2f2f2;
+  border: 1px solid #e3e3e3;
+  color: #f7a213;
+  box-shadow: 0px 1px 2px 1px rgb(227 227 227 / 20%);
+  font-size: 11px;
+  padding: 2px 7px;
+  border-radius: 5px;
+}
+.pay-button {
+  background-color: transparent;
+  border: 1px solid #fceed5;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.donate-now {
+  padding: 8px 35px;
+  background-color: #253dc0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.bottom-left-tag {
+  background-color: transparent;
+  color: #b3b3b3;
+  font-weight: bold;
+  border: 1px solid #f7a213;
+  margin: 5px;
+  padding: 7px;
+}
+.bg-card-color {
+  background-color: #ffffff;
+}
+.bolderFont {
+  font-weight: 900;
+}
+.other-amount {
+  border: 1px solid#bfbfbf;
+  color: #323232;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 14px;
+  padding: 3px 10px;
+}

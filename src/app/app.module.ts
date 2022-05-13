@@ -7,22 +7,28 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FundraisingComponent } from './pages/gigDetails/fundraising/fundraising.component';
 import { SingleVolunterComponent } from './pages/gigDetails/single-volunter/single-volunter.component';
-import { MultiVolunterComponent } from './pages/active-gigDetails/multi-volunter/multi-volunter.component';
+import { MultiVolunterComponent } from './pages/gigDetails/multi-volunter/multi-volunter.component';
+import { ActiveMultiVolunterComponent } from './pages/active-gigDetails/multi-volunter/multi-volunter.component';
+import { ActiveFundraisingComponent } from './pages/active-gigDetails/fundraising/fundraising.component';
+import { ActiveSingleVolunterComponent } from './pages/active-gigDetails/single-volunter/single-volunter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FundraisingComponent,
     SingleVolunterComponent,
-    MultiVolunterComponent
+    MultiVolunterComponent,
+    ActiveFundraisingComponent,
+    ActiveMultiVolunterComponent,
+    ActiveSingleVolunterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    NgbModule
+    NgbModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

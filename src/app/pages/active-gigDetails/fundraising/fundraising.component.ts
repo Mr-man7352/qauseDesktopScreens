@@ -3,13 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-fundraising',
   templateUrl: './fundraising.component.html',
-  styleUrls: ['./fundraising.component.scss']
+  styleUrls: ['./fundraising.component.scss'],
 })
-export class FundraisingComponent implements OnInit {
+export class ActiveFundraisingComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
